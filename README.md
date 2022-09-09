@@ -1,5 +1,17 @@
 github branch = server
 
+## GIT : Switch to existing branch or to new branch
+```
+$ git checkout <existing_branch>
+
+$ git checkout -b <new_branch>
+```
+
+## GIT : Show current branch
+```
+$ git branch --show-current
+```
+
 ## GIT : Create difference branches for each folder di powershell
 ```
 PS C:\Users\octavianus.bagus\Documents\JavaScript2\Shop> cd admin
