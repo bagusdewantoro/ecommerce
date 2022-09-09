@@ -1,3 +1,28 @@
+
+Concurrent:
+```
+npm i concurrently
+```
+Add scripts to package.json:
+```
+"scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "devClient": "concurrently -k \"npm run server\" \"npm run client\""
+  },
+```
+And then run:
+```
+npm run devClient
+```
+
+Also add similar codes for admin and also run as devAdmin
+
+username: admin
+pass: 1234
+
+
 github branch = server
 
 ## GIT : Switch to existing branch or to new branch
@@ -14,7 +39,7 @@ $ git branch --show-current
 
 ## GIT : Create difference branches for each folder di powershell
 ```
-PS C:\Users\octavianus.bagus\Documents\JavaScript2\Shop> cd admin
+$ C:\Shop> cd admin
 PS C:\Users\octavianus.bagus\Documents\JavaScript2\Shop\admin> git init
 Initialized empty Git repository in C:/Users/octavianus.bagus/Documents/JavaScript2/shop/admin/.git/
 PS C:\Users\octavianus.bagus\Documents\JavaScript2\Shop\admin> git add .
