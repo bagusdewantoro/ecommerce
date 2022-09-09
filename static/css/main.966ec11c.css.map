@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.966ec11c.css","mappings":"uJAEA,MACE,wBACF","sources":["components/Navbar.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,500&display=swap');\r\n\r\n.logo {\r\n  font-family: 'Gugi', cursive;\r\n}\r\n"],"names":[],"sourceRoot":""}
