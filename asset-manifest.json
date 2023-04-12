@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.966ec11c.css",
+    "main.js": "/static/js/main.99eab606.js",
+    "static/media/fender1.jpg": "/static/media/fender1.633a7ce48d6f24ebeb53.jpg",
+    "static/media/gibson2.jpg": "/static/media/gibson2.d3b2b0116193fa42d71b.jpg",
+    "static/media/gibson3.jpg": "/static/media/gibson3.1b27992a61683dfc27eb.jpg",
+    "static/media/fender2.jpg": "/static/media/fender2.bc9669bcd55a334f6c3b.jpg",
+    "index.html": "/index.html",
+    "main.966ec11c.css.map": "/static/css/main.966ec11c.css.map",
+    "main.99eab606.js.map": "/static/js/main.99eab606.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.966ec11c.css",
+    "static/js/main.99eab606.js"
+  ]
+}
